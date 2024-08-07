@@ -1,345 +1,465 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="eZLTS7B-tRtcESGNVpIM">
-    <mxGraphModel dx="1050" dy="-543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="-582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-28" value="Game" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-28" value="Game" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1120" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-30" value="&lt;span style=&quot;line-height: 115%; font-family: Aptos, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Manage the&lt;br/&gt;overall game state (players, board, history).&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-30" value="&lt;span style=&quot;line-height: 115%; font-family: Aptos, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Manage the&lt;br/&gt;overall game state (players, board, history).&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-31" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Handle game setup, turns, and win/lose conditions&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
-          <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-31" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Handle game setup, turns, and win/lose conditions&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
+          <mxGeometry x="30" y="90" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-32" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Provide methods for saving and loading game state&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-32" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Provide methods for saving and loading game state&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
           <mxGeometry x="20" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-33" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Implement undo/redo funcionality&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
-          <mxGeometry x="20" y="160" width="200" height="30" as="geometry" />
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-33" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Implement undo/redo funcionality&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
+          <mxGeometry x="20" y="140" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-34" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Display in-game help&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
-          <mxGeometry x="10" y="200" width="200" height="30" as="geometry" />
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-34" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Display in-game help&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
+          <mxGeometry x="10" y="160" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-35" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Player&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-35" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Player&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-36" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-36" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
           <mxGeometry x="240" y="90" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-37" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;MoveHistory&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-37" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;MoveHistory&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-28" vertex="1">
           <mxGeometry x="250" y="150" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-28">
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-1" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Start and end game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+          <mxGeometry x="10" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-5" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Pause / resume a game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+          <mxGeometry x="10" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-8" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Update instance of the game according to action taken&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+          <mxGeometry x="10" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-34" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Apply rule to the move of the piece&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-28">
+          <mxGeometry x="10" y="70" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1270" as="sourcePoint" />
             <mxPoint x="300" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-38" value="Player" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-38" value="Player" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1400" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-39" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent a player (human or compute&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-39" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent a player (human or compute&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-38" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-40" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Store player specific information (name, type)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-40" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Store player specific information (name, type)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-38" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-41" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Make moves (either manually or randomly)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-41" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Make moves (either manually or randomly)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-38" vertex="1">
           <mxGeometry x="20" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-44" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-44" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-38" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-47" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-38">
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-2" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Get player score/ set player score&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+          <mxGeometry x="30" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-3" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+          <mxGeometry x="240" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-7" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track the turn of the playyer&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+          <mxGeometry x="10" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-44" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Keep track of each move of a player&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-38">
+          <mxGeometry y="190" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-47" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1550" as="sourcePoint" />
             <mxPoint x="300" y="1430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-48" value="Board" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-48" value="Board" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="80" y="1680" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-49" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent the game board (game/cells)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-48">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-49" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent the game board (game/cells)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-48" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-50" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Validate move validity (check if a cell is empty)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-48">
-          <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-50" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Validate move validity (check if a cell is empty)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-48" vertex="1">
+          <mxGeometry x="20" y="50" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-51" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Update the board state after each move&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-48">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-51" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Update the board state after each move (show position of pieces on the board)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-48" vertex="1">
           <mxGeometry x="20" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-52" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-48">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-52" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-48" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-53" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-48">
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-4" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Player?&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-48">
+          <mxGeometry x="250" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-6" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Place a piece on the board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-48">
+          <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-53" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-48" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1830" as="sourcePoint" />
             <mxPoint x="300" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-54" value="MoveHistory" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-54" value="MoveHistory" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="80" y="1960" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-55" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track all moves made during the game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-54">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-55" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track all moves made during the game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-54" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-56" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Supoort unde and redo operations&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-54">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-56" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Supoort unde and redo operations&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-54" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-58" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-54">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-58" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-54" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-54">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-54" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="2110" as="sourcePoint" />
             <mxPoint x="300" y="1990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-60" value="SaveManager" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-60" value="SaveManager" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="80" y="2240" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-61" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Save the game state to a file&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-60">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-61" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Save the game state to a file&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-60" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-62" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Load a saved game state&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-60">
-          <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-62" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Load a saved game state&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-60" vertex="1">
+          <mxGeometry x="10" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-63" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-60">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-63" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-60" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-64" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-60">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-64" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="2390" as="sourcePoint" />
             <mxPoint x="300" y="2270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-65" value="HelpSystem" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-65" value="HelpSystem" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="80" y="2520" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-66" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Provide in-game help system&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-65">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-66" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Provide in-game help system&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-65" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-67" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Explain available commands&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-65">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-67" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Explain available commands&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-65" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-68" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-65">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-68" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-65" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-69" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-65">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-69" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="2670" as="sourcePoint" />
             <mxPoint x="300" y="2550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-70" value="&lt;p class=&quot;MsoNormal&quot;&gt;CRC (Class-Responsibility-Collaboration) card for the &lt;b&gt;Notakto&lt;/b&gt;&lt;br/&gt;game&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2810" width="440" height="30" as="geometry" />
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-70" value="&lt;p class=&quot;MsoNormal&quot;&gt;CRC (Class-Responsibility-Collaboration) card for the &lt;b&gt;Notakto&lt;/b&gt;&lt;br/&gt;game&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="3640" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-71" value="NotaktoGame" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2840" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-71" value="NotaktoGame" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="3680" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-72" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Manage the game state (boards, players turns)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-72" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Manage the game state (boards, players turns)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-73" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Determine valid moves (placing an X in an empty cell)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-73" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Determine valid moves (placing an X in an empty cell)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-74" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board (multiple instances for each board)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-74" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board (multiple instances for each board)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-76" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Detect three-in-a-row patterns on boards&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-76" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Detect three-in-a-row patterns on boards&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-77" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track the number of remaining live boards&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-77" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track the number of remaining live boards&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry y="130" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-78" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Determine the winner or declare a draw&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-78" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Determine the winner or declare a draw&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry x="-10" y="160" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-79" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Players (alternating turns)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-79" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Players (alternating turns)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-71" vertex="1">
           <mxGeometry x="220" y="80" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-75" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-71">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-75" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-71" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="2990" as="sourcePoint" />
-            <mxPoint x="300" y="2870" as="targetPoint" />
+            <mxPoint x="430" y="3830" as="sourcePoint" />
+            <mxPoint x="330" y="3710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-80" value="NotaktoBoard" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="3120" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-80" value="NotaktoBoard" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="3960" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-81" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent a 3x3 grid (empty or with marks)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-81" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent a 3x3 grid (empty or with marks)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-80" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-82" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Check for three-in-a-row patterns&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-82" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Check for three-in-a-row patterns&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-80" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-83" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;NotaktoGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-83" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;NotaktoGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-80" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-84" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Marks cells with x during gameplay&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-84" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Marks cells with x during gameplay&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-80" vertex="1">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-85" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Determine if the board is dead (three-in-a-row)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-85" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Determine if the board is dead (three-in-a-row)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-80" vertex="1">
           <mxGeometry y="130" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-86" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Create number of boards&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-86" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Create number of boards&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-80" vertex="1">
           <mxGeometry x="-10" y="160" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-80">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-80" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="3270" as="sourcePoint" />
-            <mxPoint x="300" y="3150" as="targetPoint" />
+            <mxPoint x="430" y="4110" as="sourcePoint" />
+            <mxPoint x="330" y="3990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-89" value="NotaktoPlayer" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="3400" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-89" value="NotaktoPlayer" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="4240" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-90" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Take turns placing x marks on the board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-89">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-90" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Take turns placing x marks on the board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-89" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-91" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;follow game rules&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-89">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-91" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;follow game rules&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-89" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-92" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;NotaktoGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-89">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-92" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;NotaktoGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-89" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-104" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-89">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-104" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-89" vertex="1">
           <mxGeometry x="230" y="80" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-96" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-89">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-96" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-89" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="3550" as="sourcePoint" />
-            <mxPoint x="300" y="3430" as="targetPoint" />
+            <mxPoint x="430" y="4390" as="sourcePoint" />
+            <mxPoint x="330" y="4270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-97" value="NotaktoScoreboard" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="3680" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-97" value="NotaktoScoreboard" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="4520" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-98" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(Keep tracks of players scores, wins and draws)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-98" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;(Keep tracks of players scores, wins and draws)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-97" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-99" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Last move&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-99" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Last move&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-97" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-100" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;NotaktoGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-100" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;NotaktoGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-97" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-102" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Update scores based on outcomes&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-102" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Update scores based on outcomes&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-97" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-103" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Display the current standings&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-103" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Display the current standings&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-97" vertex="1">
           <mxGeometry x="20" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-105" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-105" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-97" vertex="1">
           <mxGeometry x="230" y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-101" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-97">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-101" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-97" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="3830" as="sourcePoint" />
-            <mxPoint x="300" y="3710" as="targetPoint" />
+            <mxPoint x="430" y="4670" as="sourcePoint" />
+            <mxPoint x="330" y="4550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-107" value="GomokuGame" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="3960" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-107" value="GomokuGame" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="4800" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-108" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Manage the game state (15x15 board, player turns)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-108" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Manage the game state (15x15 board, player turns)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-107" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-109" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Validate and execute player moves (placing stones)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-109" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Validate and execute player moves (placing stones)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-107" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-110" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board (15x15)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-110" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board (15x15)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-107" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-111" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Detect winning conditions (five-in-a-row-horizontally, vertically, or diagonally)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-111" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Detect winning conditions (five-in-a-row-horizontally, vertically, or diagonally)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-107" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-112" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Determine if the game ends in a draw&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-112" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Determine if the game ends in a draw&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-107" vertex="1">
           <mxGeometry x="20" y="120" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-113" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Players (Human vs Human, Human vs Computer)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-113" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Players (Human vs Human, Human vs Computer)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-107" vertex="1">
           <mxGeometry x="230" y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-114" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-107">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-114" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-107" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="4110" as="sourcePoint" />
-            <mxPoint x="300" y="3990" as="targetPoint" />
+            <mxPoint x="430" y="4950" as="sourcePoint" />
+            <mxPoint x="330" y="4830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-115" value="GomokuBoard" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="4240" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-115" value="GomokuBoard" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="5080" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-116" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent the 15x15 grid&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-115">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-116" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Represent the 15x15 grid&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-115" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-117" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track the placement of X, and O&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-115">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-117" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Track the placement of X, and O&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-115" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-119" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Check for winnign patterns (five-in-a-row)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-115">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-119" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Check for winnign patterns (five-in-a-row)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-115" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-120" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Determine if the board is completely filled&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-115">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-120" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Determine if the board is completely filled&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-115" vertex="1">
           <mxGeometry x="20" y="110" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-121" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;GomokuGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-115">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-121" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;GomokuGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-115" vertex="1">
           <mxGeometry x="230" y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-122" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-115">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-122" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-115" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="4390" as="sourcePoint" />
-            <mxPoint x="300" y="4270" as="targetPoint" />
+            <mxPoint x="430" y="5230" as="sourcePoint" />
+            <mxPoint x="330" y="5110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-123" value="GomokuPlayer" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="4520" width="440" height="240" as="geometry">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-123" value="GomokuPlayer" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="5360" width="440" height="240" as="geometry">
             <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-124" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Take turns placing X or O marks on the board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-123">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-124" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Take turns placing X or O marks on the board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-123" vertex="1">
           <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-125" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;foll&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22NotaktoPlayer%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstartSize%3D23%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2290%22%20y%3D%223410%22%20width%3D%22440%22%20height%3D%22240%22%20as%3D%22geometry%22%3E%3CmxRectangle%20x%3D%2280%22%20y%3D%221120%22%20width%3D%2270%22%20height%3D%2230%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3BTake%20turns%20placing%20x%20marks%20on%20the%20board%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2230%22%20width%3D%22200%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3Bfollow%20game%20rules%26amp%3Bnbsp%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2220%22%20y%3D%2260%22%20width%3D%22200%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3BNotaktoGame%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%2240%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3BBoard%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22230%22%20y%3D%2280%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ow game rules&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-123">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-125" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;foll&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22NotaktoPlayer%22%20style%3D%22swimlane%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstartSize%3D23%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2290%22%20y%3D%223410%22%20width%3D%22440%22%20height%3D%22240%22%20as%3D%22geometry%22%3E%3CmxRectangle%20x%3D%2280%22%20y%3D%221120%22%20width%3D%2270%22%20height%3D%2230%22%20as%3D%22alternateBounds%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3BTake%20turns%20placing%20x%20marks%20on%20the%20board%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%2230%22%20width%3D%22200%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3Bfollow%20game%20rules%26amp%3Bnbsp%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%2220%22%20y%3D%2260%22%20width%3D%22200%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3BNotaktoGame%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%2240%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BAptos%2C%20sans-serif%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%208px%3B%26quot%3B%26gt%3BBoard%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20x%3D%22230%22%20y%3D%2280%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ow game rules&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-123" vertex="1">
           <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-126" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;GomokuGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-123">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-126" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;GomokuGame&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-123" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-127" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;GomokuBoard&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-123">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-127" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;GomokuBoard&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-123" vertex="1">
           <mxGeometry x="230" y="80" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-129" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Player wins or lose&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lXgtdQ9EWLSVNxKfQJXl-123">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-129" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Player wins or lose&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lXgtdQ9EWLSVNxKfQJXl-123" vertex="1">
           <mxGeometry x="40" y="110" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-128" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-123">
+        <mxCell id="lXgtdQ9EWLSVNxKfQJXl-128" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lXgtdQ9EWLSVNxKfQJXl-123" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="4670" as="sourcePoint" />
-            <mxPoint x="300" y="4550" as="targetPoint" />
+            <mxPoint x="430" y="5510" as="sourcePoint" />
+            <mxPoint x="330" y="5390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-14" value="Position" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2800" width="440" height="240" as="geometry">
+            <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-15" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Display position is legit or not&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-16" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Activate action based on the position of the piece&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="20" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-17" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="240" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-19" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Piece&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="240" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-20" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Rule&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="240" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-21" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Action&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="240" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-22" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;TurnManager&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="240" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-23" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;LeaderBoard&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry x="240" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qbSfdX6wZyGDBb9aB0ju-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="2950" as="sourcePoint" />
+            <mxPoint x="300" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-24" value="Piece" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3080" width="440" height="200" as="geometry">
+            <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-25" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Get the type of piece&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-24">
+          <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-27" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-24">
+          <mxGeometry x="240" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-28" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-24">
+          <mxGeometry x="240" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-32" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;LeaderBoard&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-24">
+          <mxGeometry x="240" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qbSfdX6wZyGDBb9aB0ju-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="3230" as="sourcePoint" />
+            <mxPoint x="300" y="3110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-35" value="TurnManager" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3320" width="440" height="200" as="geometry">
+            <mxRectangle x="80" y="1120" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-36" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Get turn of the players on updating each position&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="10" y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-37" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Game&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="240" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-38" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Board&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="240" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-39" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;LeaderBoard&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="240" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-41" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Set turn of the players on updating each position&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="20" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-42" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Player&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="240" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-43" value="&lt;font face=&quot;Aptos, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Position&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry x="240" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qbSfdX6wZyGDBb9aB0ju-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qbSfdX6wZyGDBb9aB0ju-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="3470" as="sourcePoint" />
+            <mxPoint x="300" y="3350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
