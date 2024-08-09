@@ -7,7 +7,7 @@
         <mxCell id="8eqlL9zge0KsKMPuEw4X-0" value="GameMenu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="30" y="255" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8eqlL9zge0KsKMPuEw4X-1" value="GameMenu_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="8eqlL9zge0KsKMPuEw4X-0" vertex="1">
+        <mxCell id="8eqlL9zge0KsKMPuEw4X-1" value="GameMenu_id: 01" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="8eqlL9zge0KsKMPuEw4X-0" vertex="1">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8eqlL9zge0KsKMPuEw4X-2" value="GameMenu_players; [p1,p2]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="8eqlL9zge0KsKMPuEw4X-0" vertex="1">
