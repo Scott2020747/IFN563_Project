@@ -710,10 +710,10 @@
         <mxCell id="5O5QPjvZtn2rIJO85LV9-19" value="CheckGameHistory()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5O5QPjvZtn2rIJO85LV9-12" vertex="1">
           <mxGeometry y="224" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5O5QPjvZtn2rIJO85LV9-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JrsG_4BdHlaIOofszGz--6" target="5O5QPjvZtn2rIJO85LV9-27" edge="1">
+        <mxCell id="5O5QPjvZtn2rIJO85LV9-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-270" y="480" as="sourcePoint" />
-            <mxPoint x="-220" y="430" as="targetPoint" />
+            <mxPoint x="-70" y="123.41" as="sourcePoint" />
+            <mxPoint x="557.4000000000001" y="119.99799999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
