@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NotaktoBoardGame
+namespace NotaktoGame
 {
     public abstract class Player
     {
@@ -17,7 +17,6 @@ namespace NotaktoBoardGame
             PlayerType = type;
         }
 
-        public abstract Move GetMove(List<Board> boards);
+        public abstract Move GetMove(List<NotaktoBoard> boards);
     }
-
 }

@@ -1,134 +1,89 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Xml.Serialization;
+using System.Text.Json;
 
-namespace NotaktoBoardGame
+namespace NotaktoGame
 {
-        [Serializable]
-        public class GameState
-        {
-            public List<Board> Boards { get; set; }
-            public List<Player> Players { get; set; }
-            public int CurrentPlayerIndex { get; set; }
-            public bool IsPaused { get; set; }
+    public class GameState
+    {
+        // Game components
+        public List<NotaktoBoard> Boards;
+        public List<Player> Players;
+        public int CurrentPlayerIndex;
+        public Stack<Move> UndoStack;
+        public Stack<Move> RedoStack;
+        public bool IsPaused;
 
-            [XmlIgnore]
-            public Stack<Move> UndoStack { get; set; }
-            [XmlIgnore]
-            public Stack<Move> RedoStack { get; set; }
-
-            [XmlArray("UndoMoves")]
-            public Move[] UndoMoves
-            {
-            
-                get
-                {
-                    // If UndoStack is not null, convert it to an array; otherwise, return an empty array
-                    if (UndoStack != null)
-                        return UndoStack.ToArray();
-                    else
-                        return Array.Empty<Move>();
-                }
-                set
-                {
-                    // Set UndoStack to a new stack containing the provided value
-                    UndoStack = new Stack<Move>(value);
-                }
-            }
-
-            [XmlArray("RedoMoves")]
-        
-            public Move[] RedoMoves
-            {
-                get
-                {
-                    // If RedoStack is not null, convert it to an array; otherwise, return an empty array
-                    if (RedoStack != null)
-                        return RedoStack.ToArray();
-                    else
-                        return Array.Empty<Move>();
-                }
-                set
-                {
-                    // Set RedoStack to a new stack containing the provided value
-                    RedoStack = new Stack<Move>(value);
-                }
-            }
-
-
+        // Constructor
         public GameState()
-            {
-                Boards = new List<Board>();
-                Players = new List<Player>();
-                UndoStack = new Stack<Move>();
-                RedoStack = new Stack<Move>();
-            }
+        {
+            Boards = new List<NotaktoBoard>();
+            Players = new List<Player>();
+            CurrentPlayerIndex = 0;
+            UndoStack = new Stack<Move>();
+            RedoStack = new Stack<Move>();
+            IsPaused = false;
+        }
 
-            public void PauseGame()
-            {
-                IsPaused = true;
-                Console.WriteLine("Game paused. Press any key to resume.");
-            }
+        // Pause the game
+        public void PauseGame()
+        {
+            IsPaused = true;
+            Console.WriteLine("Game paused. Press any key to resume.");
+        }
 
-            public void ResumeGame()
-            {
-                IsPaused = false;
-                Console.WriteLine("Game resumed.");
-            }
+        // Resume the game
+        public void ResumeGame()
+        {
+            IsPaused = false;
+            Console.WriteLine("Game resumed.");
+        }
 
-            public void SaveGame(string fileName)
+        // Save the game to a file
+        public void SaveGame(string fileName)
+        {
+            try
             {
-                var serializer = new XmlSerializer(typeof(GameState));
-                using var fs = new FileStream(fileName, FileMode.Create);
-                serializer.Serialize(fs, this);
-                Console.WriteLine($"Game saved to {fileName}");
-            }
-
-            public static GameState LoadSavedGame(string fileName)
-            {
-                if (!File.Exists(fileName))
+                // Convert the game state to JSON
+                string jsonString = JsonSerializer.Serialize(this, new JsonSerializerOptions
                 {
-                    Console.WriteLine("Save file not found.");
-                    return null;
-                }
+                    WriteIndented = true,
+                    IncludeFields = true
+                });
 
-                var serializer = new XmlSerializer(typeof(GameState));
-                using var fs = new FileStream(fileName, FileMode.Open);
-                return (GameState)serializer.Deserialize(fs);
+                // Write JSON to file
+                File.WriteAllText(fileName, jsonString);
+                Console.WriteLine("Game saved successfully.");
             }
-
-            public void AddMove(Move move)
+            catch (Exception e)
             {
-                UndoStack.Push(move);
-                RedoStack.Clear();
+                Console.WriteLine("Error saving game: " + e.Message);
             }
+        }
 
-            public Move UndoMove() => UndoStack.Count > 0 ? MoveStack(UndoStack, RedoStack) : null;
-
-            public Move RedoMove() => RedoStack.Count > 0 ? MoveStack(RedoStack, UndoStack) : null;
-
-            private Move MoveStack(Stack<Move> fromStack, Stack<Move> toStack)
+        // Load a game from a file
+        public static GameState LoadSavedGame(string fileName)
+        {
+            try
             {
-                var move = fromStack.Pop();
-                toStack.Push(move);
-                return move;
+                // Read JSON from file
+                string jsonString = File.ReadAllText(fileName);
+
+                // Convert JSON back to GameState object
+                GameState loadedState = JsonSerializer.Deserialize<GameState>(jsonString, new JsonSerializerOptions
+                {
+                    IncludeFields = true
+                });
+
+                Console.WriteLine("Game loaded successfully.");
+                return loadedState;
             }
-
-            public bool CanUndo() => UndoStack.Count > 0;
-
-            public bool CanRedo() => RedoStack.Count > 0;
-
-            public void SwitchPlayer() => CurrentPlayerIndex = (CurrentPlayerIndex + 1) % Players.Count;
-
-            public Player GetCurrentPlayer() => Players[CurrentPlayerIndex];
-
-            public bool IsGameOver() => Boards.TrueForAll(board => board.IsDead);
+            catch (Exception e)
+            {
+                Console.WriteLine("Error loading game: " + e.Message);
+                return null;
+            }
         }
     }
-
-
+}

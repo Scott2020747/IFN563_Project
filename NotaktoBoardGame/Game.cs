@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NotaktoBoardGame
+namespace NotaktoGame
 {
     public class Game
     {
@@ -13,7 +11,12 @@ namespace NotaktoBoardGame
         public Game()
         {
             State = new GameState();
-            State.Boards = new List<Board> { new Board(1), new Board(2), new Board(3) };
+            NotaktoBoard.ResetAllBoards();
+            State.Boards = new List<NotaktoBoard> {
+                new NotaktoBoard(1),
+                new NotaktoBoard(2),
+                new NotaktoBoard(3)
+            };
         }
 
         public void Start()
@@ -23,62 +26,57 @@ namespace NotaktoBoardGame
 
             while (!IsGameOver())
             {
-                if (State.IsPaused)
-                {
-                    Console.ReadKey(true);
-                    State.ResumeGame();
-                }
-
+                HandlePausedState();
                 DisplayGameState();
-                Player currentPlayer = State.Players[State.CurrentPlayerIndex];
-                Move move = currentPlayer.GetMove(State.Boards);
-                ExecuteMove(move);
-                State.CurrentPlayerIndex = (State.CurrentPlayerIndex + 1) % State.Players.Count;
-
+                PlayTurn();
                 CheckForCommands();
             }
 
             DisplayGameState();
-            Console.WriteLine($"Game Over! {State.Players[(State.CurrentPlayerIndex + 1) % State.Players.Count].PlayerName} wins!");
+            AnnounceWinner();
         }
 
-        /*private void SetupPlayers()
-        {
-            Console.WriteLine("Enter 1 for Human vs Human, 2 for Human vs Computer:");
-            string choice = Console.ReadLine();
-            Console.WriteLine("Player 1 enter your name: ");
-            string playerOne = Console.ReadLine();
-            Console.WriteLine("Player 2 enter your name: ");
-            string playerTwo = Console.ReadLine();
-            State.Players.Add(new HumanPlayer($"{playerOne}", "X"));
-            State.Players.Add(choice == "1" ? new HumanPlayer($"{playerTwo}", "X") : new ComputerPlayer("Computer", "X"));
-        }*/
         private void SetupPlayers()
         {
             Console.WriteLine("Enter 1 for Human vs Human, 2 for Human vs Computer:");
             string choice = Console.ReadLine();
 
+            AddHumanPlayer("Player 1");
 
             if (choice == "1")
-            {
-                Console.WriteLine("Enter Player 1's name:");
-                string playerOne = Console.ReadLine();
-
-                Console.WriteLine("Enter Player 2's name:");
-                string playerTwo = Console.ReadLine();
-                State.Players.Add(new HumanPlayer(playerOne, "X"));
-                State.Players.Add(new HumanPlayer(playerTwo, "X"));
-            }
+                AddHumanPlayer("Player 2");
             else
-            {
+                AddComputerPlayer();
+        }
 
-                Console.WriteLine("Enter Player 1's name:");
-                string playerOne = Console.ReadLine();
-                State.Players.Add(new HumanPlayer(playerOne, "X"));
-                State.Players.Add(new ComputerPlayer("Computer", "X"));
+        private void AddHumanPlayer(string playerPrompt)
+        {
+            Console.WriteLine($"Enter name for {playerPrompt}:");
+            string playerName = Console.ReadLine();
+            State.Players.Add(new HumanPlayer(playerName, "X"));
+        }
+
+        private void AddComputerPlayer()
+        {
+            State.Players.Add(new ComputerPlayer("Computer"));
+        }
+
+        private void HandlePausedState()
+        {
+            if (State.IsPaused)
+            {
+                Console.ReadKey(true);
+                State.ResumeGame();
             }
         }
 
+        private void PlayTurn()
+        {
+            Player currentPlayer = State.Players[State.CurrentPlayerIndex];
+            Move move = currentPlayer.GetMove(State.Boards);
+            ExecuteMove(move);
+            State.CurrentPlayerIndex = (State.CurrentPlayerIndex + 1) % State.Players.Count;
+        }
 
         private void ExecuteMove(Move move)
         {
@@ -89,7 +87,12 @@ namespace NotaktoBoardGame
 
         public bool IsGameOver()
         {
-            return State.Boards.All(board => board.IsDead);
+            foreach (var board in State.Boards)
+            {
+                if (!board.IsDead)
+                    return false;
+            }
+            return true;
         }
 
         private void DisplayGameState()
@@ -156,9 +159,21 @@ namespace NotaktoBoardGame
             if (loadedState != null)
             {
                 State = loadedState;
+                NotaktoBoard.ResetAllBoards();
+                foreach (var board in State.Boards)
+                {
+                    NotaktoBoard.AddBoard(board);
+                }
                 Console.WriteLine("Game loaded successfully.");
             }
         }
+
+        private void AnnounceWinner()
+        {
+            int winnerIndex = (State.CurrentPlayerIndex + 1) % State.Players.Count;
+            Console.WriteLine($"Game Over! {State.Players[winnerIndex].PlayerName} wins!");
+        }
+
         public static void DisplayHelp()
         {
             Console.WriteLine("Notakto - Game Instructions:");
@@ -174,7 +189,5 @@ namespace NotaktoBoardGame
             Console.WriteLine("10. Type 'pause' to pause the game.");
             Console.WriteLine();
         }
-
     }
-
 }

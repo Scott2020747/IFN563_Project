@@ -1,57 +1,65 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NotaktoBoardGame
+namespace NotaktoGame
 {
-        [Serializable]
-        public class Move
+    [Serializable]
+    public class Move
+    {
+        // Information about the move
+        public int BoardIndex;
+        public int Row;
+        public int Column;
+        public Piece Piece;
+
+        // Create a new move
+        public Move(int boardIndex, int row, int column, Piece piece)
         {
-            public int BoardIndex { get; }
-            public int Row { get; }
-            public int Column { get; }
-            public Piece Piece { get; }
+            BoardIndex = boardIndex;
+            Row = row;
+            Column = column;
+            Piece = piece;
+        }
 
-            public Move(int boardIndex, int row, int column, Piece piece)
+        // Undo this move
+        public void Undo(List<NotaktoBoard> boards)
+        {
+            // Make sure the board exists
+            if (BoardIndex >= 0 && BoardIndex < boards.Count)
             {
-                BoardIndex = boardIndex;
-                Row = row;
-                Column = column;
-                Piece = piece;
-            }
+                NotaktoBoard board = boards[BoardIndex];
 
-            public void Undo(List<Board> boards)
-            {
-                if (IsValidBoardIndex(boards))
+                // Remove the piece from the board
+                board.Grid[Row, Column] = null;
+
+                // Mark the board as not dead
+                board.SetDeadState(false);
+
+                // Check if the board is still in a winning state
+                if (board.CheckForWin())
                 {
-                    Board board = boards[BoardIndex];
-                    board.Grid[Row, Column] = null;
-                    UpdateBoardState(board);
+                    board.SetDeadState(true);
                 }
             }
+        }
 
-            public void Redo(List<Board> boards)
+        // Redo this move
+        public void Redo(List<NotaktoBoard> boards)
+        {
+            // Make sure the board exists
+            if (BoardIndex >= 0 && BoardIndex < boards.Count)
             {
-                if (IsValidBoardIndex(boards))
+                NotaktoBoard board = boards[BoardIndex];
+
+                // Put the piece back on the board
+                board.PlacePiece(Row, Column, Piece);
+
+                // Check if this creates a winning state
+                if (board.CheckForWin())
                 {
-                    Board board = boards[BoardIndex];
-                    board.Grid[Row, Column] = Piece;
-                    UpdateBoardState(board);
+                    board.SetDeadState(true);
                 }
-            }
-
-            private bool IsValidBoardIndex(List<Board> boards)
-            {
-                return BoardIndex >= 0 && BoardIndex < boards.Count;
-            }
-
-            private void UpdateBoardState(Board board)
-            {
-                board.SetDeadState(board.CheckForWin());
             }
         }
     }
-
-
+}

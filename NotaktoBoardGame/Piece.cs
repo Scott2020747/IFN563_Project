@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NotaktoBoardGame
+namespace NotaktoGame
 {
-        public class Piece
+    public class Piece
+    {
+        public string Symbol { get; set; }
+
+        public Piece(string symbol = "X")
         {
-            public string Symbol { get; set; }
-
-            public Piece(string symbol = "X")
-            {
-                Symbol = symbol;
-            }
+            Symbol = symbol;
         }
-    
+    }
 }
-

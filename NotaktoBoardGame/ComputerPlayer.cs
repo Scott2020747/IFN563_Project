@@ -1,46 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NotaktoBoardGame
+namespace NotaktoGame
 {
     public class ComputerPlayer : Player
     {
-        private Random random = new Random();
+        private Random random;
 
-        public ComputerPlayer(string name, string type) : base(name, type) { }
-
-        public override Move GetMove(List<Board> boards)
+        public ComputerPlayer(string name) : base(name, "Computer")
         {
-            Console.WriteLine($"{PlayerName} is thinking...");
-            Thread.Sleep(1000); // Simulate thinking
-
-            int boardIndex = ChooseRandomAvailableBoard(boards);
-            int row, col;
-
-            do
-            {
-                row = random.Next(3);
-                col = random.Next(3);
-            } while (!boards[boardIndex].IsPositionEmpty(row, col));
-
-            return new Move(boardIndex, row, col, new Piece(PlayerType));
+            random = new Random();
         }
 
-        private int ChooseRandomAvailableBoard(List<Board> boards)
+        public override Move GetMove(List<NotaktoBoard> boards)
         {
-            List<int> availableBoards = new List<int>();
-            for (int i = 0; i < boards.Count; i++)
+            // Find all available moves
+            List<Move> availableMoves = new List<Move>();
+
+            // Check each board
+            for (int boardIndex = 0; boardIndex < boards.Count; boardIndex++)
             {
-                if (!boards[i].IsDead)
+                NotaktoBoard board = boards[boardIndex];
+
+                // Skip dead boards
+                if (board.IsDead)
                 {
-                    availableBoards.Add(i);
+                    continue;
+                }
+
+                // Check each cell on the board
+                for (int row = 0; row < 3; row++)
+                {
+                    for (int col = 0; col < 3; col++)
+                    {
+                        // If the cell is empty, it's an available move
+                        if (board.Grid[row, col] == null)
+                        {
+                            availableMoves.Add(new Move(boardIndex, row, col, new Piece("X")));
+                        }
+                    }
                 }
             }
-            return availableBoards[random.Next(availableBoards.Count)];
+
+            // Choose a random move from available moves
+            Move chosenMove = availableMoves[random.Next(availableMoves.Count)];
+
+            // Print the chosen move
+            Console.WriteLine($"{PlayerName} places X on Board {chosenMove.BoardIndex + 1} at position ({chosenMove.Row + 1}, {chosenMove.Column + 1})");
+
+            return chosenMove;
         }
     }
-
 }
