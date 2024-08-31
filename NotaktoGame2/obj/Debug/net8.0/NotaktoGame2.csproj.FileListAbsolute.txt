@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\bin\Debug\net8.0\NotaktoGame2.exe
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\bin\Debug\net8.0\NotaktoGame2.deps.json
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\bin\Debug\net8.0\NotaktoGame2.runtimeconfig.json
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\bin\Debug\net8.0\NotaktoGame2.dll
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\bin\Debug\net8.0\NotaktoGame2.pdb
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.AssemblyInfo.cs
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.dll
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\refint\NotaktoGame2.dll
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.pdb
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\NotaktoGame2.genruntimeconfig.cache
+C:\Users\scott\OneDrive - Queensland University of Technology\Documents\QUT\Masters in IT\IFN563\Project\Notakto\NotaktoGame2\obj\Debug\net8.0\ref\NotaktoGame2.dll
