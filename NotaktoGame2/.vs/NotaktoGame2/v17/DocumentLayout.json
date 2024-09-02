@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\",
+  "WorkspaceRootPath": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\notaktoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:notaktoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\notaktogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\notaktogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:notaktogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\computerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:computerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\notakto\\notaktogame2\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\computerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:computerplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|c:\\users\\scott\\onedrive - queensland university of technology\\documents\\qut\\masters in it\\ifn563\\project\\ifn563_project\\notaktogame2\\notaktoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292B8AD0-8D9D-4EE5-BCE7-691A221191A4}|NotaktoGame2.csproj|solutionrelative:notaktoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,28 +54,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Board.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Board.cs",
               "RelativeDocumentMoniker": "Board.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Board.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Board.cs",
               "RelativeToolTip": "Board.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAUwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T03:43:19.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Piece.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Piece.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Piece.cs",
               "RelativeDocumentMoniker": "Piece.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Piece.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Piece.cs",
               "RelativeToolTip": "Piece.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "NotaktoBoard.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\NotaktoBoard.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\NotaktoBoard.cs",
               "RelativeDocumentMoniker": "NotaktoBoard.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\NotaktoBoard.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\NotaktoBoard.cs",
               "RelativeToolTip": "NotaktoBoard.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAJsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -97,37 +97,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ComputerPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\ComputerPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\ComputerPlayer.cs",
               "RelativeDocumentMoniker": "ComputerPlayer.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\ComputerPlayer.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\ComputerPlayer.cs",
               "RelativeToolTip": "ComputerPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T02:52:05.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "HumanPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\HumanPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\HumanPlayer.cs",
               "RelativeDocumentMoniker": "HumanPlayer.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\HumanPlayer.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\HumanPlayer.cs",
               "RelativeToolTip": "HumanPlayer.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAA3wDkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T02:51:44.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Player.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Player.cs",
               "RelativeToolTip": "Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,11 +136,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Move.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Move.cs",
               "RelativeDocumentMoniker": "Move.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Move.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Move.cs",
               "RelativeToolTip": "Move.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAA3wDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,52 +149,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\GameState.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\GameState.cs",
               "RelativeDocumentMoniker": "GameState.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\GameState.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\GameState.cs",
               "RelativeToolTip": "GameState.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T02:46:25.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "NotaktoGame.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\NotaktoGame.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\NotaktoGame.cs",
               "RelativeDocumentMoniker": "NotaktoGame.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\NotaktoGame.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\NotaktoGame.cs",
               "RelativeToolTip": "NotaktoGame.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAADwv6oAAAAgAAAA",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAkwDkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T02:45:53.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Game.cs",
               "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Game.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Game.cs",
               "RelativeToolTip": "Game.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAkwGgAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T02:45:00.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\Program.cs",
+              "ToolTip": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA0wAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T02:44:17.543Z",
               "EditorCaption": ""

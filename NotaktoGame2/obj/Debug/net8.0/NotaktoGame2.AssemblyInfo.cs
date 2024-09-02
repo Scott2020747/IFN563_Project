@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotaktoGame2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+593c343d79d066c25a5d369da650585881dcde8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotaktoGame2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotaktoGame2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\NotaktoGame2.csproj",
+      "projectUniqueName": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\NotaktoGame2.csproj",
       "projectName": "NotaktoGame2",
-      "projectPath": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\NotaktoGame2.csproj",
+      "projectPath": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\NotaktoGame2.csproj",
       "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\Notakto\\NotaktoGame2\\obj\\",
+      "outputPath": "C:\\Users\\scott\\OneDrive - Queensland University of Technology\\Documents\\QUT\\Masters in IT\\IFN563\\Project\\IFN563_Project\\NotaktoGame2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
